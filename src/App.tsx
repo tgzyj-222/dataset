@@ -1,13 +1,12 @@
-import React from 'react';
-import { Button } from 'antd'
 
+import Home from './pages/Home/Home';
 import 'antd/dist/antd.less';
 
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary" >{'确定'}</Button>
+      <Home />
     </div>
   );
 }
